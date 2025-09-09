@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader File">
+      <UniqueIdentifier>{5018e275-df35-4235-abc0-aa3e9a954edf}</UniqueIdentifier>
+      <Extensions>hlsl;</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Debug">
+      <UniqueIdentifier>{f8d4a54b-e86d-40c9-9b52-83c622e01207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Debug">
+      <UniqueIdentifier>{7f1dc999-9575-4809-878e-cc50e336869f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{d5d6551d-b6e4-4c5d-94fc-6a3a2dfae687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX">
+      <UniqueIdentifier>{699e4e27-174f-4812-8b05-37ca790831fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Setting">
+      <UniqueIdentifier>{c648c996-ecfe-4fdb-b6e1-e6de672ec3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Setting">
+      <UniqueIdentifier>{56fb078a-3676-4557-8690-439b70ce1fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Draw Set">
+      <UniqueIdentifier>{2a981bb3-0283-4e86-9c43-cf1a53af67fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Draw Set">
+      <UniqueIdentifier>{537a0d16-8a78-42b2-b3ee-7db0c00c5f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\DirectX">
+      <UniqueIdentifier>{652ba473-040b-4a5e-80ff-97d348c30dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Draw Resource">
+      <UniqueIdentifier>{01f5472c-2498-4d81-91d0-87946dd77654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Draw Resource">
+      <UniqueIdentifier>{41de7800-0864-40f5-89d5-e65f0535a70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Tools">
+      <UniqueIdentifier>{e7171e4d-49e5-4c22-9ad5-2eb6da3b130a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Tools">
+      <UniqueIdentifier>{41da89c0-5f21-4ee0-bb0a-db1d7466a670}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_ostream.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_text.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="direct3d.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyLogger.cpp">
+      <Filter>ソース ファイル\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>ソース ファイル\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\Draw Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Animation.cpp">
+      <Filter>ソース ファイル\Draw Set</Filter>
+    </ClCompile>
+    <ClCompile Include="system_timer.cpp">
+      <Filter>ソース ファイル\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\Draw Set</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>ソース ファイル\Draw Set</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader11.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Window.cpp">
+      <Filter>ソース ファイル\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\Draw Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug_ostream.h">
+      <Filter>ヘッダー ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_text.h">
+      <Filter>ヘッダー ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="direct3d.h">
+      <Filter>ヘッダー ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>ヘッダー ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>ヘッダー ファイル\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyLogger.h">
+      <Filter>ヘッダー ファイル\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>ヘッダー ファイル\Draw Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル\Draw Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\Draw Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Animation.h">
+      <Filter>ヘッダー ファイル\Draw Set</Filter>
+    </ClInclude>
+    <ClInclude Include="system_timer.h">
+      <Filter>ヘッダー ファイル\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader11.h">
+      <Filter>ヘッダー ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Window.h">
+      <Filter>ヘッダー ファイル\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\Draw Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader_pixel_2d.hlsl">
+      <Filter>Shader File</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_vertex_2d.hlsl">
+      <Filter>Shader File</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="consolab_ascii_512.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ascii_texture_generator.py">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="DirectXTex.inl">
+      <Filter>ヘッダー ファイル\DirectX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DirectXTex_Debug.lib">
+      <Filter>リソース ファイル\DirectX</Filter>
+    </Library>
+    <Library Include="DirectXTex_Release.lib">
+      <Filter>リソース ファイル\DirectX</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
